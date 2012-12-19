@@ -542,3 +542,5 @@ border-bottom:1px solid #F7F2B8;
 }
 
 a.endnote { vertical-align: super; font-size: 80%; }
+
+blockquote { font-style: normal !important; }
