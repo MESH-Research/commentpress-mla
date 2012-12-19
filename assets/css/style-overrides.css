@@ -1,0 +1,544 @@
+/*
+===============================================================
+Commentpress Child Theme Styles
+===============================================================
+*/
+
+
+/* 
+--------------------------------------------------------------------------------
+Fonts 
+--------------------------------------------------------------------------------
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+body,
+#book_header #tagline,
+body#main_blog div#item-header div#item-meta {
+font-family:Georgia, "Times New Roman", serif;
+font-weight:200;
+}
+#title h1,
+#title h1 a,
+#book_header #tagline {
+color:#222 !important;
+}
+#book_header #tagline {
+font-size:.9em;
+padding-top:1px;
+letter-spacing:0px !important;
+}
+#title h1,
+#title h1 a,
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6,
+body.settings #content h3,
+body.settings.my-account #content h3,
+body.settings.general #content h3,
+body.directory.logged-in #content form.dir-form h3,
+body.directory #content form.dir-form h3,
+body.create-blog #content h3,
+body.registration #content h2,
+body.activation.activate #content h2,
+body.activate #content h3,
+body.directory.logged-in #content h3,
+body.directory #content h3,
+body.group-create #content form.standard-form > h3,
+body.create-blog #content #setupform label,
+#register-page #signup_form h2,
+div#item-header h2,
+ul#member-list h5,
+ul#admins-list h5,
+ul#mods-list h5,
+ul#members-list h5,
+span.highlight,
+.item-title a,
+div#message-thread strong a {
+font-family: 'Rokkitt', serif;
+}
+body.create-blog #cp-multisite-options h4,
+body#main_blog.create-blog.buddypress_page #content .padder h3,
+body.registration #content h4,
+body.group-create #group-create-body h2,
+body.group-create #group-create-body h3,
+body.directory.logged-in #content h4,
+body.group-create #content h4,
+body.group-admin #group-create-body h2,
+body.group-admin #group-create-body h3,
+body.group-admin #content h4,
+body.group-admin #content h3,
+body.group-admin #content h2,
+body#main_blog div#item-header div#item-actions h3,
+.profile h4,
+#register-page #cp-multisite-options h4,
+#content .mu_register h2,
+#content .mu_register label,
+#content .mu_register #cp-multisite-options h3, /* Comment form */
+div#respond h4#respond_title, /* BuddyPress Group Email Subscription compatibility */
+h3.activity-subscription-settings-title {
+font-family: 'Rokkitt', serif;
+}
+.post h2 a:link,
+.post h2 a:hover,
+.post h2 a:visited {
+color: #CD0018;
+text-transform:uppercase;
+}
+/* 
+--------------------------------------------------------------------------------
+BuddyPress Main Site
+--------------------------------------------------------------------------------
+*/
+
+/* Darkest Colour for header */
+#book_header {
+background: #cc0000 !important;
+border-bottom:1px solid #AE0000;
+top:31px;
+border-top:1px solid #fff;
+}
+#footer {
+background: #FF8B00;
+}
+#footer_inner {
+padding:20px 20px 25px;
+}
+/* main site */
+body,
+body#main_blog {
+background: #fff;
+}
+body#main_blog.create-blog.buddypress_page #content .padder h3,
+body#main_blog form.dir-form,
+body#main_blog div.item-list-tabs,
+body#main_blog form#whats-new-form,
+body#main_blog .home-page form#whats-new-form,
+body.directory #content h3,
+body.group-create #content form.standard-form > h3,
+#register-page #signup_form h2,
+body.activation.activate #content h2,
+body.activation.activate #content h3,
+div#item-header,
+#content div.item-list-tabs#object-nav {
+background: #FC0;
+}
+body#main_blog div.item-list-tabs#subnav {
+background: #fff;
+}
+body#main_blog #item-body form#whats-new-form {
+background-color: #eee;
+}
+body#main_blog div#item-header div#item-meta {
+font-size: 1.4em;
+line-height: 1.2;
+color: #fff;
+}
+#page_wrapper {
+background: -moz-linear-gradient(center top, #FFFFFF 0%, #F4F4F4 100%) !important;
+background: linear-gradient(center top, #FFFFFF 0%, #F4F4F4 100%) !important;
+border:1px #fff solid;
+}
+#page_wrapper, #footer {
+ -webkit-box-shadow: 1px 2px 6px #999;
+-moz-box-shadow: 1px 2px 6px #999;
+-khtml-box-shadow: 1px 2px 6px #999;
+box-shadow: 1px 2px 6px #999;
+}
+#content {
+background:transparent !important;
+}
+/***************** List Items ******************/
+
+ul.item-list li {
+border-bottom: 1px solid #B5BFB2;
+}
+.item-title a {
+font-size: 1em;
+}
+/* groups, blogs & activities lists */
+ul#groups-list > li,
+ul#blogs-list > li,
+ul.item-list.activity-list > li {
+padding-left: 14px;
+border-left: 10px solid #FC0;
+margin-top: 1px;
+margin-bottom: 1px;
+}
+ul.item-list li div.item-desc {
+color: #761D19;
+}
+ul.item-list.activity-list li.load-more {
+padding-left: 0;
+border-left: 0;
+}
+div.activity-comments ul li {
+}
+/* remove decoration on group pages */
+body.group-home ul.item-list.activity-list > li {
+border-left: none;
+}
+/* activity tab default */
+#activity_sidebar li.groups {
+border-left: 10px solid #FC0;
+margin-bottom: 1px;
+}
+
+#book_nav { border-bottom:1px #aaa; height:31px; }
+#book_header {
+  background: none repeat scroll 0 0 #EDEBEB !important;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+background-image: linear-gradient(bottom, #1F1F1F 3%, #333333 67%);
+background-image: -o-linear-gradient(bottom, #1F1F1F 3%, #333333 67%);
+background-image: -moz-linear-gradient(bottom, #1F1F1F 3%, #333333 67%);
+background-image: -webkit-linear-gradient(bottom, #1F1F1F 3%, #333333 67%);
+background-image: -ms-linear-gradient(bottom, #1F1F1F 3%, #333333 67%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.03, #1F1F1F),
+	color-stop(0.67, #333333)
+);
+border:1px solid #000;
+}
+button, a.button, input[type="submit"], input[type="button"], input[type="reset"], ul.button-nav li a, div.generic-button a,
+#book_search input#search-submit,
+#book_search input#searchsubmit {
+color:#fff;
+padding:4px 10px;
+}
+#book_header #user_links a.button {
+ padding:4px 10px;
+}
+
+button:hover, a.button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, ul.button-nav li a:hover, ul.button-nav li.current a, div.generic-button a:hover, #book_header #user_links a.button:hover {
+background-image: linear-gradient(bottom, #292929 3%, #000000 67%);
+background-image: -o-linear-gradient(bottom, #292929 3%, #000000 67%);
+background-image: -moz-linear-gradient(bottom, #292929 3%, #000000 67%);
+background-image: -webkit-linear-gradient(bottom, #292929 3%, #000000 67%);
+background-image: -ms-linear-gradient(bottom, #292929 3%, #000000 67%);
+background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0.03, #292929),  color-stop(0.67, #000000)  );
+border: 1px solid #000;
+color: #ddd;
+}
+#footer_inner a.button {
+color:#fff;
+background: #ED6600; /* Old browsers */
+background: -moz-linear-gradient(top,  #e87b00 22%, #e06100 71%, #ff8307 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,#e87b00), color-stop(71%,#e06100), color-stop(98%,#ff8307)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e87b00 22%,#e06100 71%,#ff8307 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e87b00 22%,#e06100 71%,#ff8307 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e87b00 22%,#e06100 71%,#ff8307 98%); /* IE10+ */
+background: linear-gradient(to bottom,  #e87b00 22%,#e06100 71%,#ff8307 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e87b00', endColorstr='#ff8307',GradientType=0 ); /* IE6-9 */
+
+text-decoration:none;
+border:1px solid #D85A00;
+}
+#footer_inner a.button:hover {
+color:#fff;
+background: #222;
+border:1px solid #000;
+}
+
+a#btn_login { background:url(../images/padlock-sprite.png) left 1px no-repeat; text-transform:uppercase; text-decoration:none; border:0px none; }
+a#btn_login, #book_header #user_links a#btn_login { padding: 0 0 0 10px; color:#000; }
+a#btn_login:hover, #book_header #user_links a#btn_login:hover {
+color:#cc0000;
+background-position:left -13px;
+}
+
+#footer_inner  a#btn_logout { border:0px none; background:transparent; padding:0px; text-decoration:underline; font-size:100%; }
+
+.selected_para { background-color:#FFC; }
+ #respond { background-color:#FFC;}
+ 
+
+/* 
+--------------------------------------------------------------------------------
+Prose 
+--------------------------------------------------------------------------------
+*/
+
+/* body (allow Theme Customizer to set colour for non-groupblogs) */
+body.blogtype-0 {
+background: #F7F7F7 url(../images/stripe.png) repeat;
+}
+/* body (do not allow Theme Customizer to set colour for groupblogs) */
+body.is-groupblog.blogtype-0 {
+background: url(../images/stripe.png) repeat #F7F7F7 !important;
+}
+/* group home */
+div#content.groupblogtype-0 div#item-header,
+#content.groupblogtype-0 div.item-list-tabs#object-nav {
+background: url(../images/stripe.png) repeat #F7F7F7;
+}
+/* group bg 
+li.groupblogtype-0
+{
+    background: #745494;
+}
+*/
+
+/* group decoration */
+ul.item-list li.groupblogtype-0 .item-title a,
+ul.item-list li.groupblogtype-0 .item-desc,
+ul.item-list li.groupblogtype-0 .item-desc p,
+ul.item-list li.groupblogtype-0 .item-desc a {
+color: #745494;
+}
+/* groups, blogs & activities lists */
+ul#groups-list li.groupblogtype-0,
+ul#blogs-list li.groupblogtype-0,
+ul.activity-list li.groupblogtype-0 {
+padding-left: 14px;
+border-left: 10px solid #745494;
+}
+/* activity tab */
+#activity_sidebar li.groupblogtype-0 {
+border-left: 10px solid #745494;
+}
+/* revert overridden posts to poetry */
+body.blogtype-0 #content .post.overridden_type-1 p {
+line-height: 1.5;
+padding-bottom: 24px;
+}
+/* make some space after search_meta for overridden */
+body.blogtype-0 #content .post.overridden_type-1 div.search_meta {
+padding-bottom: 24px;
+}
+/* prose defaults to right-bubbles */
+
+/* poetry overrides default to left-bubbles 
+body.blogtype-0 .post.overridden_type-1 span.commenticonbox 
+{
+	position: absolute;
+	margin-left: -40px;
+	margin-top: -2px;	
+	padding-right: 20px;
+	right: auto;
+}
+*/
+
+
+
+
+/* 
+--------------------------------------------------------------------------------
+Poetry
+--------------------------------------------------------------------------------
+*/
+
+/* body (allow Theme Customizer to set colour for non-groupblogs) */
+body.blogtype-1 {
+background: #C36;
+}
+/* body (do not allow Theme Customizer to set colour for groupblogs) */
+body.is-groupblog.blogtype-1 {
+background: #C36 !important;
+}
+/* group home */
+div#content.groupblogtype-1 div#item-header,
+#content.groupblogtype-1 div.item-list-tabs#object-nav {
+background: #C36;
+}
+/* group bg 
+li.groupblogtype-1
+{
+    background: #C36;
+}
+*/
+
+/* group */
+ul.item-list li.groupblogtype-1 .item-title a,
+ul.item-list li.groupblogtype-1 div.item-desc,
+ul.item-list li.groupblogtype-1 div.item-desc p,
+ul.item-list li.groupblogtype-1 div.item-desc a {
+color: #C36;
+}
+/* groups, blogs & activities lists */
+ul#groups-list li.groupblogtype-1,
+ul#blogs-list li.groupblogtype-1,
+ul.activity-list li.groupblogtype-1 {
+padding-left: 14px;
+border-left: 10px solid #C36;
+}
+/* activity tab */
+#activity_sidebar li.groupblogtype-1 {
+border-left: 10px solid #C36;
+}
+/* content formatting for poetry */
+body.blogtype-1 #content .post p {
+line-height: 1.5;
+padding-bottom: 24px;
+}
+/* revert overridden posts to prose */
+body.blogtype-1 #content .post.overridden_type-0 p,
+body.commentpress_page.blogtype-1 #content .post p {
+line-height: 1.5;
+padding-bottom: 11px;
+}
+/* allow for comment form */
+body.commentpress_page.blogtype-1 #content #respond p {
+padding-bottom: 0;
+}
+/* make some space after search_meta */
+body.blogtype-1 #content div.search_meta {
+padding-bottom: 24px;
+}
+/* remove space before overridden posts */
+body.blogtype-1 #content .post.overridden_type-0 div.search_meta {
+padding-bottom: 7px;
+}
+/* unfortunately, we need to reset search */
+body.blogtype-1 #content div.search_meta p {
+margin: 0;
+padding: 0;
+}
+/* poetry defaults to left-bubbles 
+body.blogtype-1 .post span.commenticonbox 
+{
+	position: absolute;
+	margin-left: -40px;
+	margin-top: -2px;	
+	padding-right: 20px;
+	right: auto;
+}
+*/
+
+/* prose overrides default to right-bubbles 
+body.blogtype-1 .post.overridden_type-0 span.commenticonbox 
+{
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;	
+	padding-right: 20px;
+	right: 25px;
+}
+*/
+
+#book_search input#search-submit,
+#book_search input#searchsubmit,
+input#search-submit,
+input#searchsubmit {
+margin:0px 0 0 -4px;
+}
+#book_search input#s, input#s {
+height: 18px;
+margin: 0;
+float:none;
+}
+#user_links {
+padding-top:4px;
+}
+#user_links ul { margin-right:6px; }
+#user_links ul li { margin-right:4px;}
+/* 
+--------------------------------------------------------------------------------
+Translation 
+--------------------------------------------------------------------------------
+*/
+
+/* body (allow Theme Customizer to set colour for non-groupblogs) */
+body.blogtype-2 {
+background: #A36D47;
+}
+/* body (do not allow Theme Customizer to set colour for groupblogs) */
+body.is-groupblog.blogtype-2 {
+background: #A36D47 !important;
+}
+/* group home */
+div#content.groupblogtype-2 div#item-header,
+#content.groupblogtype-2 div.item-list-tabs#object-nav {
+background: #A36D47;
+}
+/* group bg 
+li.groupblogtype-2
+{
+    background: #A36D47;
+}
+*/
+
+/* group */
+ul.item-list li.groupblogtype-2 .item-title a,
+ul.item-list li.groupblogtype-2 .item-desc,
+ul.item-list li.groupblogtype-2 .item-desc p,
+ul.item-list li.groupblogtype-2 .item-desc a {
+color: #A36D47;
+}
+/* groups, blogs & activities lists */
+ul#groups-list li.groupblogtype-2,
+ul#blogs-list li.groupblogtype-2,
+ul.activity-list li.groupblogtype-2 {
+padding-left: 14px;
+border-left: 10px solid #A36D47;
+}
+/* activity tab */
+#activity_sidebar li.groupblogtype-2 {
+border-left: 10px solid #A36D47;
+}
+/* 
+--------------------------------------------------------------------------------
+Footer
+--------------------------------------------------------------------------------
+*/
+
+#footer {
+border: 1px solid #FF9F4D;
+font-size: 85%;
+}
+#footer p {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #fff;
+}
+
+/* 
+--------------------------------------------------------------------------------
+BuddyPress Group Email Subscription compatibility
+--------------------------------------------------------------------------------
+*/
+
+/* default "get email updates" link on yellow */
+.single-item #content.groupblog .group-subscription-div a {
+color: #fff;
+}
+/* where a groupblog is set, use grey */
+.single-item #content.groupblog.groupblogtype-0 .group-subscription-div a,
+.single-item #content.groupblog.groupblogtype-1 .group-subscription-div a,
+.single-item #content.groupblog.groupblogtype-2 .group-subscription-div a {
+color: #ccc;
+}
+
+#logowrap { float:left; padding-top:14px; }
+li.sidebar_header, .sidebar_minimiser { border-color: #ccc; }
+.sidebar_minimiser {padding:0px; }
+div.comments_container { padding:2px; }
+#toc_sidebar .sidebar_minimiser ul#toc_list { margin:0px; padding:2px; }
+div#comments_sidebar .comments_container > h3, div#activity_sidebar .comments_container > h3 {
+border-bottom: 1px solid #E4E4E4;
+border-top: 1px solid #FFFFFF;
+background-color: #F9F9F9;
+}
+#footer_inner a, #footer_inner p a {color:#fff;}
+#footer_inner .widget { margin-top:.5em; }
+li.sidebar_header h2 a {color:#555;}
+li.sidebar_header h2 a:hover {color:#CD0018;}
+
+.wp-editor-container { border-color:#EAEAA8 !important; background:#F4F4F4; }
+
+.comment-identifier {
+background:#FFFFCC;
+border-bottom:1px solid #F7F2B8;
+}
+
+a.endnote { vertical-align: super; font-size: 80%; }
