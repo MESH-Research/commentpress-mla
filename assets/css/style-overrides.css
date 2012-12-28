@@ -565,3 +565,6 @@ color: #333 !important;
 span.ibid { letter-spacing: -0.15em; padding-right: 0.15em; }
 
 div.running_header_bottom { display: none; }
+
+h3.term a { text-decoration: underline !important; }
+h3.term { letter-spacing: 0.02em; }
