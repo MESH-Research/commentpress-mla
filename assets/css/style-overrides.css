@@ -568,3 +568,5 @@ div.running_header_bottom { display: none; }
 
 h3.term a { text-decoration: underline !important; }
 h3.term { letter-spacing: 0.02em; }
+
+.search_meta { display: none; }
