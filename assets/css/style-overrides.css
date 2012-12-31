@@ -567,6 +567,10 @@ span.ibid { letter-spacing: -0.15em; padding-right: 0.15em; }
 div.running_header_bottom { display: none; }
 
 h3.term a { text-decoration: underline !important; }
-h3.term { letter-spacing: 0.02em; }
+h3.term {
+font-family: "Trebuchet MS", sans-serif;
+font-size: 1.1em;
+letter-spacing: 0.02em;
+}
 
 .search_meta { display: none; }
