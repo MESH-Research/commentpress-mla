@@ -574,3 +574,10 @@ letter-spacing: 0.02em;
 }
 
 .search_meta, #user_links { display: none; }
+
+p.metadata {
+margin-top: 1.5em;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 0.9em;
+color: #666;
+}
