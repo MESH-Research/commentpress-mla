@@ -5,9 +5,9 @@ Commentpress Child Theme Styles
 */
 
 
-/* 
+/*
 --------------------------------------------------------------------------------
-Fonts 
+Fonts
 --------------------------------------------------------------------------------
 */
 
@@ -88,7 +88,7 @@ font-family: 'Rokkitt', serif;
 font-size: 125%;
 color: #CD0018;
 }
-/* 
+/*
 --------------------------------------------------------------------------------
 BuddyPress Main Site
 --------------------------------------------------------------------------------
@@ -262,11 +262,11 @@ background-position:left -13px;
 
 .selected_para { background-color:#FFC; }
  #respond { background-color:#FFC;}
- 
 
-/* 
+
+/*
 --------------------------------------------------------------------------------
-Prose 
+Prose
 --------------------------------------------------------------------------------
 */
 
@@ -283,7 +283,7 @@ div#content.groupblogtype-0 div#item-header,
 #content.groupblogtype-0 div.item-list-tabs#object-nav {
 background: url(../images/stripe.png) repeat #F7F7F7;
 }
-/* group bg 
+/* group bg
 li.groupblogtype-0
 {
     background: #745494;
@@ -319,8 +319,8 @@ padding-bottom: 24px;
 }
 /* prose defaults to right-bubbles */
 
-/* poetry overrides default to left-bubbles 
-body.blogtype-0 .post.overridden_type-1 span.commenticonbox 
+/* poetry overrides default to left-bubbles
+body.blogtype-0 .post.overridden_type-1 span.commenticonbox
 {
 	position: absolute;
 	margin-left: -40px;
@@ -333,7 +333,7 @@ body.blogtype-0 .post.overridden_type-1 span.commenticonbox
 
 
 
-/* 
+/*
 --------------------------------------------------------------------------------
 Poetry
 --------------------------------------------------------------------------------
@@ -352,7 +352,7 @@ div#content.groupblogtype-1 div#item-header,
 #content.groupblogtype-1 div.item-list-tabs#object-nav {
 background: #C36;
 }
-/* group bg 
+/* group bg
 li.groupblogtype-1
 {
     background: #C36;
@@ -405,8 +405,8 @@ body.blogtype-1 #content div.search_meta p {
 margin: 0;
 padding: 0;
 }
-/* poetry defaults to left-bubbles 
-body.blogtype-1 .post span.commenticonbox 
+/* poetry defaults to left-bubbles
+body.blogtype-1 .post span.commenticonbox
 {
 	position: absolute;
 	margin-left: -40px;
@@ -416,8 +416,8 @@ body.blogtype-1 .post span.commenticonbox
 }
 */
 
-/* prose overrides default to right-bubbles 
-body.blogtype-1 .post.overridden_type-0 span.commenticonbox 
+/* prose overrides default to right-bubbles
+body.blogtype-1 .post.overridden_type-0 span.commenticonbox
 {
 	position: absolute;
 	margin-left: 0;
@@ -443,9 +443,9 @@ padding-top:4px;
 }
 #user_links ul { margin-right:6px; }
 #user_links ul li { margin-right:4px;}
-/* 
+/*
 --------------------------------------------------------------------------------
-Translation 
+Translation
 --------------------------------------------------------------------------------
 */
 
@@ -462,7 +462,7 @@ div#content.groupblogtype-2 div#item-header,
 #content.groupblogtype-2 div.item-list-tabs#object-nav {
 background: #A36D47;
 }
-/* group bg 
+/* group bg
 li.groupblogtype-2
 {
     background: #A36D47;
@@ -487,7 +487,7 @@ border-left: 10px solid #A36D47;
 #activity_sidebar li.groupblogtype-2 {
 border-left: 10px solid #A36D47;
 }
-/* 
+/*
 --------------------------------------------------------------------------------
 Footer
 --------------------------------------------------------------------------------
@@ -502,7 +502,7 @@ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 color: #fff;
 }
 
-/* 
+/*
 --------------------------------------------------------------------------------
 BuddyPress Group Email Subscription compatibility
 --------------------------------------------------------------------------------
