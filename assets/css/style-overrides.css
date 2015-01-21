@@ -592,3 +592,22 @@ color: #666;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
+
+/* Hacks for "Under Review" Section */
+.page-item-362 > a {
+	pointer-events: none;
+	cursor: default;
+	color: blue;
+	font-weight: bold !important;
+}
+
+span.under-review {
+	border: 1px solid #E4F3F6;
+	border-radius: 3px;
+	padding: 1px 3px;
+	background-color: #EDF6FA;
+	color: #333;
+	font-size: 77%;
+	position: relative;
+	top: -1px;
+}
