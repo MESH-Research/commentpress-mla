@@ -594,7 +594,11 @@ color: #666;
 }
 
 /* "Under Review" badge for new essays */
-span.under-review {
+/* using 'strong' and 'i' tags as a hack to allow 
+ * non-super-admins the ability to use these tags.
+ */  
+.page_item strong, #cp_book_info strong {
+	font-weight: normal; 
 	border: 1px solid #E4F3F6;
 	border-radius: 3px;
 	padding: 1px 3px;
@@ -605,6 +609,7 @@ span.under-review {
 	top: -1px;
 }
 
-span.under-review-title { 
+.page_item em, #cp_book_info em { 
+	font-style: normal; 
 	color: #761D19; 
-} 
+}
