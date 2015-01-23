@@ -604,3 +604,7 @@ span.under-review {
 	position: relative;
 	top: -1px;
 }
+
+span.under-review-title { 
+	color: #761D19; 
+} 
