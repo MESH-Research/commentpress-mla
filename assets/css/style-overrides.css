@@ -324,7 +324,7 @@ body.blogtype-0 .post.overridden_type-1 span.commenticonbox
 {
 	position: absolute;
 	margin-left: -40px;
-	margin-top: -2px;	
+	margin-top: -2px;
 	padding-right: 20px;
 	right: auto;
 }
@@ -410,7 +410,7 @@ body.blogtype-1 .post span.commenticonbox
 {
 	position: absolute;
 	margin-left: -40px;
-	margin-top: -2px;	
+	margin-top: -2px;
 	padding-right: 20px;
 	right: auto;
 }
@@ -421,7 +421,7 @@ body.blogtype-1 .post.overridden_type-0 span.commenticonbox
 {
 	position: absolute;
 	margin-left: 0;
-	margin-top: 0;	
+	margin-top: 0;
 	padding-right: 20px;
 	right: 25px;
 }
@@ -583,7 +583,7 @@ color: #666;
 }
 
 .invite-box {
-  padding: 15px 0; 
+  padding: 15px 0;
   margin: 20px 0;
   color: #000;
   background-color: #EDF6FA;
@@ -593,17 +593,17 @@ color: #666;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.invite-box p { 
+.invite-box p {
   padding-left: 15px;
   padding-right: 15px;
-} 
+}
 
 /* "Under Review" badge for new essays */
-/* using 'strong' and 'i' tags as a hack to allow 
+/* using 'strong' and 'em' tags as a hack to allow
  * non-super-admins the ability to use these tags.
- */  
+ */
 .page_item strong, #cp_book_info strong {
-	font-weight: normal; 
+	font-weight: normal;
 	border: 1px solid #E4F3F6;
 	border-radius: 3px;
 	padding: 1px 3px;
@@ -614,7 +614,11 @@ color: #666;
 	top: -1px;
 }
 
-.page_item em, #cp_book_info em { 
-	font-style: normal; 
-	color: #761D19; 
+.page_item em, #cp_book_info em {
+	font-style: normal;
+	color: #761D19;
+}
+
+.page_item .batch-2015, #cp_book_info .batch-2015 {
+  background-color: #eec;
 }
