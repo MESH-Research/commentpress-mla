@@ -49,19 +49,11 @@ add_action( 'after_setup_theme', 'cpchild_setup' );
  */
 function cpchild_enqueue_styles() {
 
-	// init
-	$dev = '';
-	
-	// check for dev
-	if ( defined( 'SCRIPT_DEBUG' ) AND SCRIPT_DEBUG === true ) {
-		$dev = '.dev';
-	}
-	
 	// add child theme's css file
 	wp_enqueue_style( 
 	
 		'cpchild_css', 
-		get_stylesheet_directory_uri() . '/assets/css/style-overrides'.$dev.'.css',
+		get_stylesheet_directory_uri() . '/assets/css/style-overrides.css',
 		array( 'cp_layout_css' ),
 		'1.0', // version
 		'all' // media
