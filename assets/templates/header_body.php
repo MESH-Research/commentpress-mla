@@ -57,10 +57,7 @@ Separated this out for inclusion in multiple files.
 	
 </div><!-- /book_header -->
 
-<script>
-      var hash = window.location.hash.replace(/^#/, '');
-      if(hash) setTimeout(function(){cp_do_comment_icon_action(hash,'auto');},1000);
-</script>
+
 
 <div id="header">
 
