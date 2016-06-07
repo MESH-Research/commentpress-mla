@@ -76,3 +76,9 @@ add_filter(	'cp_template_header_body', 'my_child_template_header_body' );
 
 
 add_filter('show_admin_bar', '__return_false');  
+
+
+function my_ppp_nonce_life() {
+    return 60 * 60 * 24 * 365 * 10; // 10 years
+}
+add_filter( 'ppp_nonce_life', 'my_ppp_nonce_life' );
