@@ -599,26 +599,30 @@ color: #666;
 }
 
 /* "Under Review" badge for new essays */
-/* using 'strong' and 'em' tags as a hack to allow
- * non-super-admins the ability to use these tags.
- */
+/* using 'strong' tags as a hack to allow non-super-admins the ability to use these tags. */
+
 .page_item strong, #cp_book_info strong {
 	font-weight: normal;
-	border: 1px solid #E4F3F6;
+	border: 1px solid;
 	border-radius: 3px;
 	padding: 1px 3px;
-	background-color: #EDF6FA;
 	color: #333;
 	font-size: 77%;
 	position: relative;
 	top: -1px;
 }
 
-.page_item em, #cp_book_info em {
-	font-style: normal;
-	color: #761D19;
+.page_item .batch-2013, #cp_book_info .batch-2013 {
+  background-color: #EDF6FA;
+  border-color: #E4F3F6;
 }
 
 .page_item .batch-2015, #cp_book_info .batch-2015 {
-  background-color: #eec;
+  background-color: #ee9;
+  border-color: #e9e988;
+}
+
+.page_item .batch-2017, #cp_book_info .batch-2017 {
+  background-color: #afa;
+  border-color: #9e9;
 }
