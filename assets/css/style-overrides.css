@@ -598,7 +598,7 @@ color: #666;
   padding-right: 15px;
 }
 
-/* "Under Review" badge for new essays */
+/* "Under Review" and publication year badges for essays */
 /* using 'strong' tags as a hack to allow non-super-admins the ability to use these tags. */
 
 .page_item strong, #cp_book_info strong {
@@ -610,6 +610,10 @@ color: #666;
 	font-size: 77%;
 	position: relative;
 	top: -1px;
+}
+
+.page_item .under-review, #cp_book_info .under-review {
+  color: #BF1F30;
 }
 
 .page_item .batch-2013, #cp_book_info .batch-2013 {
