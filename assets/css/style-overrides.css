@@ -630,3 +630,8 @@ color: #666;
   background-color: #AAFFAA;
   border-color: #99EE99;
 }
+
+.page-item .batch-2019, #cp_book_info .batch-2019 {
+    background-color: #FFC1C1;
+    border-color: #EEB4B4;
+}
